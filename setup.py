@@ -17,6 +17,7 @@ setup(name='pygments-plugins-serv',
       install_requires=['pygments>=2.0.2'],
 
       entry_points='''[pygments.lexers]
+                      MakefileLexer1=pygments_plugins_serv.lexers.make:MakefileLexer
                       M4Lexer=pygments_plugins_serv.lexers.m4:M4Lexer''',
 
       classifiers=[
