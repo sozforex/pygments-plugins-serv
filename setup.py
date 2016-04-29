@@ -4,8 +4,8 @@ from setuptools import setup
 
 setup(name='pygments-plugins-serv',
       version='0.0.1',
-      description='Pygments Github custom lexers.',
-      keywords='pygments github lexer',
+      description='Pygments plugins.',
+      keywords='pygments plugins',
       license='BSD',
 
       author='Kichatov Feodor',
@@ -14,7 +14,7 @@ setup(name='pygments-plugins-serv',
       url='https://github.com/sozforex/pygments-plugins-serv',
 
       packages=['pygments_plugins_serv'],
-      install_requires=['pygments>=2.0.2'],
+      install_requires=['pygments>=2.1'],
 
       entry_points='''[pygments.lexers]
                       MakefileLexer1=pygments_plugins_serv.lexers.make:MakefileLexer
